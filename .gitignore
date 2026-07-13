@@ -1,0 +1,9 @@
+# Private AI work artifacts
+.ai/
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
