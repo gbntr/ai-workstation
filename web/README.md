@@ -1,23 +1,5 @@
-# Web
+# Web Workflow
 
-This folder describes the ChatGPT web side of the setup.
+This directory documents the ChatGPT Web side of the workflow. Start with [the workflow](../docs/web-workflow.md), then use [Project instructions](project-instructions.md), [session closure](session-closure.md), and [curation](curation.md).
 
-## Scope
-
-Use this space for:
-
-- ChatGPT Memory
-- Projects
-- Work / Scheduled Tasks
-- Google Drive memory and objects
-
-## Rule
-
-Do not place terminal-only agent configuration or development state here.
-
-## Manual setup order
-
-1. Memory
-2. Projects
-3. Work / Scheduled Tasks
-4. Drive structure
+Use durable Web records only in the `AI Web` hierarchy; do not place CLI technical memory here. ChatGPT Projects are configured manually through the Web interface. The universal fallback is to save generated candidate content manually to the synchronized local clone.
