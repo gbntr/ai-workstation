@@ -1,29 +1,18 @@
 # Operations
 
-## Development
+## Change procedure
 
-This repo is documentation-only, so operations are editing, organizing, and verifying docs.
+1. Harvey prepares approved SpecKit artifacts and records risks.
+2. Mike implements only the approved scope and records evidence.
+3. Dona independently validates acceptance scenarios and safety.
+4. Rachel coordinates integration or release only with separate authorization.
 
-## Routine workflow
+For public documentation changes, update the owning document and [index](index.md), run link and safety checks, `git diff --check`, and `verify-doc-coverage .`.
 
-1. Add or update the relevant README or doc.
-2. Update `docs/index.md` if a tracked file changed.
-3. Keep the structure minimal and obvious.
-4. Avoid duplicating content across files.
-5. Run `verify-doc-coverage .` before handoff.
+## Curation procedure
 
-## Manual setup guidance
+Review Inbox candidates against the memory policy. Consolidate only confirmed, non-conflicting items; add a Changelog entry with date, target, source, and reason; then move the candidate to Archive. Hold conflicts or synchronization disagreements for user approval. Never overwrite either version while a source disagreement is unresolved.
 
-When recreating this by hand later, start in this order:
+## Non-goals
 
-1. `README.md`
-2. `docs/index.md`
-3. `web/README.md`
-4. `cli/README.md`
-5. `agents/README.md`
-
-## Guardrails
-
-- No secrets.
-- No generated clutter.
-- No speculative future tooling unless it has a clear owner.
+This playbook does not authorize MCP, unattended automation, direct connected-app writes without confirmation, scheduled curation, private technical-memory copying, deployment, or release activity.

@@ -1,25 +1,5 @@
-# CLI
+# CLI Workflow
 
-This folder describes the terminal-side workflow.
+CLI work uses a separate private technical-memory repository for technical preferences, project state, handoffs, and validation evidence. Start its own documented reading order there.
 
-## Scope
-
-Use this space for:
-
-- Jessica orchestration
-- Harvey planning
-- Mike implementation
-- Dona QA
-- Rachel release coordination
-- technical memory and development rules
-
-## Rule
-
-Do not place ChatGPT web memory or Drive content here.
-
-## Manual setup order
-
-1. Orchestrator rules
-2. Agent role definitions
-3. Workflow and handoff rules
-4. Local technical memory references
+This public repository describes the boundary only. Do not import CLI records into ChatGPT Web Projects, Drive Web memory, or public documentation.
