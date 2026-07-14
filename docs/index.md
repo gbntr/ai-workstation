@@ -28,13 +28,7 @@
 | `templates/memory-policy.md` | Reusable durable-memory policy. |
 | `templates/project-memory-files.md` | Required `AI Web` file layout. |
 | `docs/modules/README.md` | Documentation-module convention supplied by repository tooling. |
-| `.specify/scripts/bash/check-prerequisites.sh` | SpecKit prerequisite check script. |
-| `.specify/scripts/bash/common.sh` | Shared SpecKit shell functions. |
-| `.specify/scripts/bash/create-new-feature.sh` | SpecKit feature bootstrap script. |
-| `.specify/scripts/bash/setup-plan.sh` | SpecKit plan setup script. |
-| `.specify/scripts/bash/setup-tasks.sh` | SpecKit task setup script. |
-| `.specify/extensions/agent-context/scripts/bash/update-agent-context.sh` | SpecKit agent-context update script. |
 
-Feature specifications under `specs/` are approved planning artifacts, not public operating guidance. `.ai/` is ignored and holds machine-specific reports only.
+Feature specifications are private approved planning artifacts under ignored `.ai/specs/`. The `.agents/` and `.specify/` directories are also ignored agent tooling state.
 
 When a tracked first-party file is added or changed, update this map and its owning documentation. Run `verify-doc-coverage .` before handoff.

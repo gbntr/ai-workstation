@@ -1,5 +1,7 @@
 # Private AI work artifacts
 .ai/
+.agents/
+.specify/
 
 # Local/editor noise
 .DS_Store
